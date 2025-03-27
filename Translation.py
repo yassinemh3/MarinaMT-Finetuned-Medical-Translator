@@ -1,7 +1,7 @@
 from transformers import MarianMTModel, MarianTokenizer
 
 # Path to the fine-tuned model
-model_path = r"C:\Users\yassi\Downloads\Bachelor_Project\Bachelor_Project\marian_finetuning\marian-mt-finetuned-medical" 
+model_path = "marian_finetuning\marian-mt-finetuned-medical" 
 
 # Load the model and tokenizer
 model = MarianMTModel.from_pretrained(model_path)
