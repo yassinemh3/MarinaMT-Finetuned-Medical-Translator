@@ -1,6 +1,6 @@
 # Dataset paths
-EN_FILE = r"C:\Users\yassi\Downloads\Bachelor_Project\Bachelor_Project\marian_finetuning\en.txt"
-DE_FILE = r"C:\Users\yassi\Downloads\Bachelor_Project\Bachelor_Project\marian_finetuning\de.txt"
+EN_FILE = "EMEA_data\en.txt"
+DE_FILE = "EMEA_data\de.txt"
 
 # Model and output paths
 MODEL_NAME = "Helsinki-NLP/opus-mt-de-en"
