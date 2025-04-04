@@ -8,7 +8,7 @@ model = MarianMTModel.from_pretrained(model_path)
 tokenizer = MarianTokenizer.from_pretrained(model_path)
 
 # Read the terms from the text file
-input_file = r"C:\Users\yassi\Downloads\Bachelor_Project\Bachelor_Project\unique_terms.txt"
+input_file = "unique_terms.txt"
 output_file = "translated_terms.txt"
 
 with open(input_file, "r", encoding="utf-8") as f:
